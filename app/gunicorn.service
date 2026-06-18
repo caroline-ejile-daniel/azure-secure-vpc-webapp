@@ -1,0 +1,16 @@
+[Unit]
+Description=Registration Flask App
+After=network.target
+
+[Service]
+User=<your-username>
+WorkingDirectory=/home/<username>/registration-app
+Environment="PATH=/home/<username>/registration-app/venv/bin"
+ExecStart=/home/<username>/registration-app/venv/bin/gunicorn \
+          --workers 3 \
+          --bind 0.0.0.0:5000 \
+          app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
