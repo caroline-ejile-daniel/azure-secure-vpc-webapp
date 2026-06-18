@@ -1,5 +1,33 @@
 # azure-secure-vpc-webapp
 
+### Screenshots
+
+**Resource Group — All project resources in one place**
+![Resource Group](screenshots/RGs.jpeg)
+
+**Virtual Network Configuration**
+![VNet](screenshots/VNet.jpeg)
+
+**Subnet Overview**
+![Subnet](screenshots/Subnet.jpeg)
+
+**Public Subnet Configuration**
+![Public Subnet](screenshots/Public-Subnet.jpeg)
+
+**Private Subnet Configuration**
+![Private Subnet](screenshots/Private-Subnet.jpeg)
+
+**Public IP Address**
+![Public IPs](screenshots/Public-IPs.jpeg)
+
+**NAT Gateway — Enabling outbound internet for private subnet**
+![NAT Gateway](screenshots/NAT-gateway.jpeg)
+
+**Registration App — Accessible from the internet**
+![Registration App](screenshots/Registration-App.jpeg)
+
+**Database Records — Confirming end to end communication**
+![DB Record](screenshots/DB-Record.jpeg)
 
 ## Overview
 
